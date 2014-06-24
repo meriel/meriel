@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <section id="intro" class="intro-section">
+
+            <h1>MERIEL</h1>
+            <h4>a knowable php framework</h4>
+            
+            <ul>
+            {% for user in users %}
+                <li>{{ user.name }}</li>
+            {% endfor %}
+            </ul>
+            
+        </section>
+    </body>
+</html>

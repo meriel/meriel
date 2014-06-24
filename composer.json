@@ -1,0 +1,27 @@
+{
+    "name": "Meriel - php framework",
+    "type": "project",
+    "description": "A knowable PHP framework",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefano",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "twig/twig": "1.*"
+    },
+    "require-dev": {
+        "panique/laravel-sass": "dev-master",
+        "meriel/framework": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models"
+        ]
+    }
+}
