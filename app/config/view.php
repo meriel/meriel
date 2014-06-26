@@ -3,7 +3,7 @@
 return array(
     
     
-  'paths' => 'app/views/',
+  'paths' => __DIR__.'/../../app/views/',
     
   'file_type' => '.twig'
     

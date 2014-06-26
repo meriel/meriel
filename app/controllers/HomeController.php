@@ -10,12 +10,13 @@ class HomeController extends BaseController {
             echo "admin path found";
         }
         
-       $users = DB::table('users')->where('name','!=','Rob')->get();
+      // $users = DB::table('users')->where('name','!=','Rob')->get();
        
         
-       //var_dump($a, $b);
+      // var_dump(Request::uri());
+      // var_dump(Request::path());
 
-        return View::make('welcome', array('users' => $users));
+        return View::make('welcome' /*array('users' => $users)*/ );
     }
 
 }
