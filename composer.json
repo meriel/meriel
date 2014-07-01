@@ -11,11 +11,9 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "twig/twig": "1.*"
+        "php": ">=5.3.0"
     },
     "require-dev": {
-        "panique/laravel-sass": "dev-master",
         "meriel/framework": "dev-master"
     },
     "autoload": {
