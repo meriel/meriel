@@ -39,8 +39,7 @@ class HomeController extends BaseController {
       //$users = DB::table('user')->where('name', '!=', 'Alex')->get();
       //var_dump($users);
         
-       //var_dump(Request::uri());
-       //var_dump(Request::path());
+   
         
       //$home = new HomeModel();
       //$home->street = 'xxxxx';
