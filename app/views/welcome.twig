@@ -8,15 +8,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
         <link href="{{ url('css') }}/style.css" rel="stylesheet">
-
+        <script>
+            $(function(){
+                
+                $.post('json',{}, function(response){
+                    console.log(response);
+                });
+                
+            });
+        </script>
     </head>
     <body>
         <section id="intro" class="intro-section">
 
             <h1>MERIEL</h1>
             <h4>a knowable php framework</h4>
+            
+            {% include 'menu.twig' %}
+            
             <h1>USERS</h1>
             <ul>
             {% for user in users %}
