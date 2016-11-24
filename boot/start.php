@@ -25,14 +25,6 @@ $app->register('config',  $config = new Config($app['path.app'] . '/config') );
 \Meriel\Base\AliasLoader::getInstance($config['app']['aliases'])->register();
 
 
-//$app->set( 'config', $config = new Config( $app['path.app'] . '/config' ) );
-
-//var_dump($config['config']);
-
-//$app->registerServices($app, $services);
-
-
-
 
 $app->registerCoreContainerAliases();
 

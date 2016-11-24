@@ -8,6 +8,12 @@ if (file_exists(__DIR__.'/../vendor/autoload.php')) {
 $app = require __DIR__.'/../boot/start.php';
 
 
+/**
+* start the application.
+*
+* 
+*
+* 
+*/
 
-// start the application
 $app->run();
