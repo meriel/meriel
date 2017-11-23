@@ -1,7 +1,7 @@
 <?php
 
 
-Route::get("/test/:one/:two", function($one, $two){
+Route::get("/test/([0-9]*)/([0-9]*)", function($one, $two){
   
 	return View::make('users', array('one' => $one, 'two' => $two));
 });

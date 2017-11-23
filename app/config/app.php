@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'url' => 'http://localhost/meriel/public',
+    'url' => 'http://meriel:8888',
     'services' => array(
         '\Meriel\Routing\Router',
         '\Meriel\Http\Requests',
