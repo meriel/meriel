@@ -1,11 +1,20 @@
 <?php
 
+/*
+ * This file is part of the Meriel package.
+ *
+ * (c) Stefano Anedda <dearste@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 return array(
-    
+
     'app' => __DIR__.'/../app',
-    
+
     'public' => __DIR__.'/../public',
-    
-    'base' => __DIR__.'/..'
-    
+
+    'base' => __DIR__.'/..',
+
 );
