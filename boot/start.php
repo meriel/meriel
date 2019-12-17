@@ -36,7 +36,7 @@ $app->registerCoreContainerAliases();
 $routes = $app['path.app'].'/routes.php';
 
 if (file_exists($routes)) {
-    require $routes;
+    require_once $routes;
 }
 
 
