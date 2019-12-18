@@ -60,7 +60,7 @@ class HomeController extends BaseController
         //$home->street = 'xxxxx';
         //var_dump($home);
 
-        $users = User::all();
+        //$users = User::all();
         //  foreach($users as $user){
         //     echo $user->name;
         //     echo "<br>";
@@ -93,7 +93,7 @@ class HomeController extends BaseController
         //$user->save();
 
 
-        return View::make('welcome', array('users' => $users));
+        return View::make('welcome');
     }
 
 }

@@ -1,13 +1,10 @@
-### NetBeans ###
-nbproject
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
+.DS_Store
 .idea
+composer.lock
+phpunit.xml
+clover.xml
+vendor
+coverage
 
 /vendor/
 /composer.phar

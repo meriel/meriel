@@ -1,8 +1,9 @@
 {
-    "name": "Meriel - php framework",
+    "name": "meriel/meriel",
     "type": "project",
     "description": "A knowable PHP framework",
-    "keywords": [],
+    "keywords": ["framework","micro","api","router"],
+    "homepage": "https://merielphp.com",
     "license": "MIT",
     "authors": [
         {
