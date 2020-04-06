@@ -9,7 +9,13 @@
  * file that was distributed with this source code.
  */
 
-abstract class BaseController extends \Meriel\Routing\Controller
-{
-	
-}
+return array(
+
+    'engine' => 'twig', // or php
+
+    'paths' => __DIR__ . '/../app/views/',
+
+    'file_type' => '.twig', // or .php
+
+
+);

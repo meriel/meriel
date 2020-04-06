@@ -18,9 +18,8 @@
         "meriel/framework": "dev-master"
     },
     "autoload": {
-        "classmap": [
-            "app/controllers",
-            "app/models"
-        ]
+        "psr-4": {
+            "App\\": "app/"
+        }
     }
 }

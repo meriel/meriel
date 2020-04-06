@@ -11,25 +11,6 @@
 class HomeController extends BaseController
 {
 
-    public function showAdmin($vars)
-    {
-
-        /*for($i=1; $i <=10;$i++):
-
-             $user =  new User;
-             $user->name = 'John Doe ' . $i;
-             $user->age = 2*$i;
-             $user->save();
-
-         endfor;*/
-
-        //$user = User::delete(5);
-
-
-        return "@showAdmin";
-
-    }
-
 
     public function showJson()
     {
@@ -39,10 +20,6 @@ class HomeController extends BaseController
 
     }
 
-    public function showBlog($vars)
-    {
-        var_dump($vars);
-    }
 
     public function showWelcome()
     {
