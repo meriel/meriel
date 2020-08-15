@@ -11,11 +11,11 @@
 
 return array(
 
-    'engine' => 'php', // or twig
+    'engine' => 'twig', // or php
 
-    'paths' => __DIR__ . '/../app/views/',
+    'paths' => __DIR__.'/../../app/views/',
 
-    'file_type' => '.php', // or .twig
+    'file_type' => '.twig', // or .php
 
 
 );
