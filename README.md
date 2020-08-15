@@ -5,7 +5,20 @@
 
 Welcome to Meriel, a super-tiny php framework.
 
- > This project is still in development. DO NOT USE IN PRODUCTION MODE.
+
+## Install
+First of all clone git repository into your hard-drive
+
+`$ git clone https://github.com/meriel/meriel.git`
+
+Move into the cloned folder ther install Meriel framework using composer:
+
+`$ cd meriel && composer install`
+
+You can then run it with PHP's built-in webserver:
+
+`$ php -S localhost:8080 -t public index.php
+`
 
 ## License
 
