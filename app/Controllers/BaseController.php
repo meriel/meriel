@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Controllers;
+
 /*
  * This file is part of the Meriel package.
  *

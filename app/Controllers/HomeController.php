@@ -1,4 +1,10 @@
 <?php
+
+namespace App\Controllers;
+
+use Request;
+use View;
+
 /*
  * This file is part of the Meriel package.
  *

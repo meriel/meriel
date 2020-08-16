@@ -24,7 +24,7 @@ $app->bindBasePaths(require __DIR__.'/paths.php');
 \Meriel\Facades\Facade::setFacadeApplication($app);
 
 
-$app->register('config', $config = new Config($app['path.app'].'/config'));
+$app->register('config', $config = new Config($app['path.app'] . '/../config'));
 
 
 \Meriel\Base\AliasLoader::getInstance($config['app']['aliases'])->register();

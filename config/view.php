@@ -13,7 +13,7 @@ return array(
 
     'engine' => 'twig', // or php
 
-    'paths' => __DIR__.'/../../app/views/',
+    'paths' => __DIR__ . '/../app/views/',
 
     'file_type' => '.twig', // or .php
 
