@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "meriel/framework": "dev-master",
+        "meriel/framework": "dev-master"
     },
     "autoload": {
         "psr-4": {
