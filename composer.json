@@ -8,18 +8,17 @@
     "authors": [
         {
             "name": "Stefano Anedda",
-          "email": "dearste@gmail.com"
+            "email": "dearste@gmail.com"
         }
     ],
     "require": {
-      "php": ">=7.0"
-    },
-    "require-dev": {
-        "meriel/framework": "dev-master"
+        "php": ">=7.0",
+        "meriel/framework": "dev-master",
     },
     "autoload": {
         "psr-4": {
             "App\\": "app/"
         }
-    }
+    },
+    "prefer-stable": true
 }
